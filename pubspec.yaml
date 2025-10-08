@@ -1,0 +1,31 @@
+name: shinr_mob
+description: "A new Flutter project."
+publish_to: 'none' # Prevent publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.2
+  get: ^4.7.2
+  flutter_screenutil: ^5.9.3
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+

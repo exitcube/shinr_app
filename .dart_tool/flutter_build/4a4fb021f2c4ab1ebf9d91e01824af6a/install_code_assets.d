@@ -1,0 +1,1 @@
+ D:\\shineR\\shinr_app\\.dart_tool\\flutter_build\\4a4fb021f2c4ab1ebf9d91e01824af6a\\native_assets.json: 
