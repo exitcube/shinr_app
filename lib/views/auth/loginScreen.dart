@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:shinr_mob/utils/constants/Strings.dart';
-import 'package:shinr_mob/utils/constants/app.themes.dart';
+import 'package:shinr_app/utils/constants/Strings.dart';
+import 'package:shinr_app/utils/constants/app.themes.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

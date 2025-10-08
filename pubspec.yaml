@@ -1,4 +1,4 @@
-name: shinr_mob
+name: shinr_app
 description: "A new Flutter project."
 publish_to: 'none' # Prevent publishing to pub.dev
 

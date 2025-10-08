@@ -1,4 +1,4 @@
-# shinr_mob
+# shinr_app
 
 A new Flutter project.
 

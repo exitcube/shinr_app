@@ -1,6 +1,6 @@
 {
-    "name": "shinr_mob",
-    "short_name": "shinr_mob",
+    "name": "shinr_app",
+    "short_name": "shinr_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

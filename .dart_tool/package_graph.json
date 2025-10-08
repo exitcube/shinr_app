@@ -1,10 +1,10 @@
 {
   "roots": [
-    "shinr_mob"
+    "shinr_app"
   ],
   "packages": [
     {
-      "name": "shinr_mob",
+      "name": "shinr_app",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
@@ -42,6 +42,17 @@
         "stream_channel",
         "test_api",
         "vector_math"
+      ]
+    },
+    {
+      "name": "flutter_svg",
+      "version": "2.2.1",
+      "dependencies": [
+        "flutter",
+        "http",
+        "vector_graphics",
+        "vector_graphics_codec",
+        "vector_graphics_compiler"
       ]
     },
     {
@@ -176,6 +187,42 @@
       ]
     },
     {
+      "name": "vector_graphics_compiler",
+      "version": "1.1.19",
+      "dependencies": [
+        "args",
+        "meta",
+        "path",
+        "path_parsing",
+        "vector_graphics_codec",
+        "xml"
+      ]
+    },
+    {
+      "name": "vector_graphics_codec",
+      "version": "1.1.13",
+      "dependencies": []
+    },
+    {
+      "name": "vector_graphics",
+      "version": "1.1.19",
+      "dependencies": [
+        "flutter",
+        "http",
+        "vector_graphics_codec"
+      ]
+    },
+    {
+      "name": "http",
+      "version": "1.5.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
       "name": "web",
       "version": "1.1.1",
       "dependencies": []
@@ -190,16 +237,6 @@
         "path_provider_linux",
         "path_provider_platform_interface",
         "path_provider_windows"
-      ]
-    },
-    {
-      "name": "http",
-      "version": "1.5.0",
-      "dependencies": [
-        "async",
-        "http_parser",
-        "meta",
-        "web"
       ]
     },
     {
@@ -284,6 +321,38 @@
       ]
     },
     {
+      "name": "xml",
+      "version": "6.6.1",
+      "dependencies": [
+        "collection",
+        "meta",
+        "petitparser"
+      ]
+    },
+    {
+      "name": "path_parsing",
+      "version": "1.1.0",
+      "dependencies": [
+        "meta",
+        "vector_math"
+      ]
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
       "name": "path_provider_windows",
       "version": "2.3.0",
       "dependencies": [
@@ -330,16 +399,6 @@
       ]
     },
     {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
-    },
-    {
       "name": "typed_data",
       "version": "1.4.0",
       "dependencies": [
@@ -350,6 +409,14 @@
       "name": "vm_service",
       "version": "15.0.2",
       "dependencies": []
+    },
+    {
+      "name": "petitparser",
+      "version": "7.0.1",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
     },
     {
       "name": "ffi",
@@ -375,73 +442,6 @@
         "meta",
         "path"
       ]
-    },
-    {
-      "name": "flutter_svg",
-      "version": "2.2.1",
-      "dependencies": [
-        "flutter",
-        "http",
-        "vector_graphics",
-        "vector_graphics_codec",
-        "vector_graphics_compiler"
-      ]
-    },
-    {
-      "name": "vector_graphics_codec",
-      "version": "1.1.13",
-      "dependencies": []
-    },
-    {
-      "name": "vector_graphics_compiler",
-      "version": "1.1.19",
-      "dependencies": [
-        "args",
-        "meta",
-        "path",
-        "path_parsing",
-        "vector_graphics_codec",
-        "xml"
-      ]
-    },
-    {
-      "name": "path_parsing",
-      "version": "1.1.0",
-      "dependencies": [
-        "meta",
-        "vector_math"
-      ]
-    },
-    {
-      "name": "vector_graphics",
-      "version": "1.1.19",
-      "dependencies": [
-        "flutter",
-        "http",
-        "vector_graphics_codec"
-      ]
-    },
-    {
-      "name": "xml",
-      "version": "6.6.1",
-      "dependencies": [
-        "collection",
-        "meta",
-        "petitparser"
-      ]
-    },
-    {
-      "name": "petitparser",
-      "version": "7.0.1",
-      "dependencies": [
-        "collection",
-        "meta"
-      ]
-    },
-    {
-      "name": "args",
-      "version": "2.7.0",
-      "dependencies": []
     }
   ],
   "configVersion": 1

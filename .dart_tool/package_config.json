@@ -320,7 +320,7 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "shinr_mob",
+      "name": "shinr_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"

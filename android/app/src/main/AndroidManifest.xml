@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="shinr_mob"
+        android:label="shinr_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
